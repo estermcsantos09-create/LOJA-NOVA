@@ -28,7 +28,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // Substitua pelo número do WhatsApp do estúdio, com código do país e DDD.
 // Exemplo: 5511999999999 (somente números).
-const WHATSAPP_NUMBER = '';
+const WHATSAPP_NUMBER = '(+55) 61 99596-3269';
 
 document.getElementById('quote-form').addEventListener('submit', event => {
   event.preventDefault();
